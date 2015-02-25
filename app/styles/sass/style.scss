@@ -881,4 +881,9 @@
 			width: 1px;
 			z-index: -1;
 		}
+
+		header.major,
+		footer.major {
+			background: $color-bg;
+		}
 	}
