@@ -1,17 +1,9 @@
-# Home of the Open Space for SKG THessaloniki
-Project built using [Yeoman Gulp Web App Generator](https://github.com/yeoman/generator-gulp-webapp)
+# Home of Point Zero Tech Space
 
-## Download
-`git clone git@github.com:thanpolas/hsweb.git && cd hsweb`
+This is the repository of Point Zero Tech Space website
 
-`npm install && bower install`
-
-Create a Branch. Make changes on the `app` folder. Send a PR.
+> [http://pointzero.io/](http://pointzero.io/)
 
 ## Contribute
-`gulp serve`
 
-## Deploy
-`gulp deploy`
-
-## Have a beer. You deserve it!
+Feel free to contribute in any way, such as self-assigning to an [issue](https://github.com/pointzer0/pointzer0-homepage/issues).
