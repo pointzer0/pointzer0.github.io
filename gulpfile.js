@@ -30,7 +30,7 @@ gulp.task('jshint', function () {
     .pipe($.jshint())
     .pipe($.jshint.reporter('jshint-stylish'))
     .pipe($.if(!browserSync.active, $.jshint.reporter('fail')))
-    .pipe(gulp.dest('dist/scripts’));
+    .pipe(gulp.dest('dist/scripts'));
 });
 
 gulp.task('html', ['styles'], function () {
