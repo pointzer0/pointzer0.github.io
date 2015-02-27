@@ -7,3 +7,4 @@ This is the repository of Point Zero Tech Space website
 ## Contribute
 
 Feel free to contribute in any way, such as self-assigning to an [issue](https://github.com/pointzer0/pointzer0-homepage/issues).
+
