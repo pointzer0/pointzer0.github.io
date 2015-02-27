@@ -674,7 +674,6 @@
 		position: relative;
 		text-align: center;
 
-		&:before,
 		&:after {
 			background: $color-border;
 			content: '';
@@ -682,12 +681,6 @@
 			position: absolute;
 			width: 1px;
 			z-index: 0;
-		}
-
-		&:before {
-			height: calc(100% - 50px);
-			opacity: 0.15;
-			top: 0;
 		}
 
 		&:after {
