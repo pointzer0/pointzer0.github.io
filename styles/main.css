@@ -352,3 +352,42 @@ hr {
     font-size: 18px;
   }
 }
+
+
+/* Specifications */
+.specifications-wrapper {
+  margin: 100px auto;
+}
+
+h2 {
+  margin-bottom: 70px;
+  font-family: "Source Sans Pro";
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #6bb27f;
+  letter-spacing: 1.07px;
+  line-height: 38px;
+}
+
+.specifications-item img {
+  display: inline-block;
+  margin-top: -5px;
+}
+
+.specifications-item-title {
+  display: inline-block;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 900;
+  color: #6bb27f;
+  line-height: 25px;
+  margin: 15px;
+}
+
+.specifications-item-text {
+  font-family: Georgia;
+  font-size: 18px;
+  color: #858585;
+  line-height: 24px;
+}
