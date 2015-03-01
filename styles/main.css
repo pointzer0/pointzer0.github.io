@@ -242,3 +242,42 @@ ul.nav li a {
     margin: 15px auto;
   }
 }
+
+
+/* Spaces */
+.spaces-item-wrapper {
+  margin: 100px auto;
+}
+
+.space-item-img-co {
+  margin-bottom: 35px;
+}
+
+.space-item-img-co::before {
+  content: "THE COWORKING SPACE";
+  position: absolute;
+  top: 206px;
+  left: 50px;
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-weight: bolder;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  line-height: 31px;
+}
+
+.space-item-description {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 14px;
+  color: #323232;
+  letter-spacing: 0.87px;
+  line-height: 23px;
+}
+
+hr {
+  width: 80%;
+}
+
