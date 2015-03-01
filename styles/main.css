@@ -337,8 +337,10 @@ hr {
 
 
 /* Specifications */
-.specifications-wrapper {
-  margin: 100px auto;
+#specifications {
+  padding-top: 80px;
+  padding-bottom: 60px;
+  background: #f2f2f2;
 }
 
 h2 {
@@ -364,7 +366,9 @@ h2 {
   font-weight: 900;
   color: #6bb27f;
   line-height: 25px;
-  margin: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 25px;
 }
 
 .specifications-item-text {
@@ -372,4 +376,5 @@ h2 {
   font-size: 18px;
   color: #858585;
   line-height: 24px;
+  margin-bottom: 20px;
 }
