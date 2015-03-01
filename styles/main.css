@@ -6,7 +6,7 @@
 .jumbotron {
   height: 740px;
   background: url(../images/heroBackground.jpg);
-  background-position: 0 -60px, center;
+  background-position: center -80px;
 }
 
 nav {
