@@ -23,6 +23,7 @@ nav {
   color: #FFFFFF;
   letter-spacing: 1.59px;
   line-height: 38px;
+  margin-top: 25px;
 }
 
 
@@ -136,3 +137,30 @@ ul.nav li a {
     width: 102px;
   }
 }*/
+
+/* CTA container */
+.cta-container {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  margin-top: 100px;
+  margin-bottom: 20px;
+  height: 200px;
+  width: 100%;
+  padding: 35px 50px;
+}
+
+.cta-progress-title {
+  display: inline-block;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.cta-progress-limit {
+  display: inline-block;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
