@@ -52,7 +52,7 @@ SpreadSheet.fetchData().then(function(data) {
             duration: 3000,
             easing: 'swing',
             step: function() {
-                $('.totalPledged').text(Math.round(this.totalPledged));
+                $('.totalPledged').text(Math.round(this.totalPledged).toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.'));
                 $('.totalProgress .sr-only').text(Math.round(this.totalPledgedNormalized) + '% Complete');
                 $('.totalProgress')
                     .attr('aria-valuenow', Math.round(this.totalPledgedNormalized))
