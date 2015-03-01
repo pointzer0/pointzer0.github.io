@@ -152,9 +152,12 @@ ul.nav li a {
 .cta-progress-title {
   display: inline-block;
   font-family: "Source Sans Pro";
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
-  color: #FFFFFF;
+  text-transform: uppercase;
+  color: #6bb27f;
+  letter-spacing: 0.87px;
+  line-height: 18px;
 }
 
 .cta-progress-limit {
@@ -162,5 +165,35 @@ ul.nav li a {
   font-family: "Source Sans Pro";
   font-size: 18px;
   font-weight: bold;
+  color: #AAA;
+  /*letter-spacing: 0.87px;*/
+  line-height: 18px;
+}
+
+.cta-donate-text {
+  display: inline-block;
+  opacity: 0.89;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-weight: bold;
   color: #FFFFFF;
+  line-height: 23px;
+}
+
+.cta-donate {
+  margin: 50px auto;
+}
+
+.btn-primary {
+  background: #6BB27F;
+  border: #6BB27F;
+  border-radius: 0;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  line-height: 23px;
+  height: 40px;
+  width: 225px;
 }
