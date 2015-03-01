@@ -16,13 +16,13 @@ var SpreadSheet = (function(url, pledgedCell, depositedCell, min, max) {
         },
         getTotals: function(data) {
             if (data.feed.entry && data.feed.entry.length > 0) {
-                var totalPledged = this.totalPledged = this.getCellContent(data.feed.entry, this.totalPledgedCell);
-                var totalDeposited = this.totalDeposited = this.getCellContent(data.feed.entry, this.totalDepositedCell);
+                this.totalPledged = this.getCellContent(data.feed.entry, this.totalPledgedCell);
+                this.totalDeposited = this.getCellContent(data.feed.entry, this.totalDepositedCell);
                 return {
-                    totalPledged: this.parseContent(totalPledged),
-                    totalPledgedNormalized: this.normalize(this.parseContent(totalPledged)),
-                    totalDeposited: this.parseContent(totalDeposited),
-                    totalDepositedNormalized: this.normalize(this.parseContent(totalDeposited))
+                    totalPledged: this.parseContent(this.totalPledged),
+                    totalPledgedNormalized: this.normalize(this.parseContent(this.totalPledged)),
+                    totalDeposited: this.parseContent(this.totalDeposited),
+                    totalDepositedNormalized: this.normalize(this.parseContent(this.totalDeposited))
                 };
             }
         },
@@ -52,7 +52,7 @@ SpreadSheet.fetchData().then(function(data) {
             duration: 3000,
             easing: 'swing',
             step: function() {
-                $('.totalPledged').text(Math.round(this.totalPledged) + '\u20ac');
+                $('.totalPledged').text(Math.round(this.totalPledged));
                 $('.totalProgress .sr-only').text(Math.round(this.totalPledgedNormalized) + '% Complete');
                 $('.totalProgress')
                     .attr('aria-valuenow', Math.round(this.totalPledgedNormalized))
