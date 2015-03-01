@@ -335,24 +335,6 @@ hr {
   }
 }
 
-@media (min-width: 768px) {
-  .space-item-img-co::before {
-    top: 566px;
-    left: 50px;
-    font-size: 18px;
-  }
-  .space-item-img-la::before {
-    top: 566px;
-    left: 120px;
-    font-size: 18px;
-  }
-  .space-item-img-lo::before {
-    top: 566px;
-    left: 100px;
-    font-size: 18px;
-  }
-}
-
 
 /* Specifications */
 .specifications-wrapper {
