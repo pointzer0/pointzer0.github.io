@@ -381,7 +381,7 @@ h2 {
 }
 
 /* Budget */
-#budget {
+.budget-wrapper {
   background: #6bb27f;
   padding-top: 80px;
   padding-bottom: 100px;
@@ -470,3 +470,64 @@ a:active {
   transition: .2s;
 }
 
+
+/* Help */
+h2 small {
+  text-transform: none;
+  opacity: 0.6;
+  font-family: Georgia;
+  font-size: 22px;
+  color: #7cbd91;
+  line-height: 25px;
+}
+
+.help-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+h3 {
+  font-family: "Source Sans Pro";
+  font-weight: 900;
+  font-size: 24px;
+  color: #4d4d4d;
+  letter-spacing: 0.85px;
+  line-height: 31px;
+}
+
+.help-list p {
+  font-family: Georgia;
+  font-size: 18px;
+  color: #858585;
+  line-height: 24px;
+}
+
+small {
+  font-family: Georgia;
+  font-size: 14px;
+  color: #858585;
+  line-height: 16px;
+}
+
+small span {
+  color: #db2023;
+}
+
+h4 {
+  opacity: 0.5;
+  font-family: "Source Sans Pro";
+  font-weight: 900;
+  font-size: 24px;
+  color: #4D4D4D;
+  letter-spacing: 0.85px;
+  line-height: 31px;
+  margin-top: 40px;
+}
+
+.lead {
+  opacity: 0.5;
+  font-family: Georgia;
+  font-size: 18px;
+  color: #858585;
+  line-height: 24px;
+}
