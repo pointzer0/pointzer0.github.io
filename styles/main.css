@@ -609,3 +609,83 @@ h4 {
   font-weight: 700;
   color: #6BB27F;
 }
+
+/* Contact */
+#contact {
+  background: #6bb27f;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact-wrapper {
+  padding-right: 98px;
+  padding-left: 98px;
+}
+
+.contact-title {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.contact-subtitle {
+  font-family: Georgia;
+  font-weight: 700;
+  font-size: 22px;
+  color: #e0f2e9;
+  line-height: 25px;
+  margin-bottom: 100px;
+}
+
+#contact a {
+  color: #fff;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 6px;
+}
+
+.form-control {
+  background: transparent;
+  border-color: #fff;
+  height: 60px;
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+  letter-spacing: 0.71px;
+  line-height: 25px;
+}
+
+.form-control:focus {
+  border-color: #fff;
+  background: rgba(255,255,255,.10);
+  -webkit-box-shadow: 0 0 8px rgba(255,255,255,.75);
+          box-shadow: 0 0 8px rgba(255,255,255,.75);
+}
+
+.contact-label {
+  font-family: "Source Sans Pro";
+  font-weight: 900;
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 23px;
+  text-transform: uppercase;
+  margin-top: 34px;
+}
+
+#contact .btn-primary {
+  margin-top: 14px;
+  background: #fff;
+  color: #6bb27f;
+}
+
+#contact .btn-primary:hover,
+#contact .btn-primary:focus,
+#contact .btn-primary:active {
+  background: #403341;
+  -webkit-transition: .2s;
+       -o-transition: .2s;
+          transition: .2s;
+}
