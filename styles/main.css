@@ -531,3 +531,40 @@ h4 {
   color: #858585;
   line-height: 24px;
 }
+
+/* Perks */
+#perks {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  background: #e0f2e9;
+}
+
+.perks-wrapper {
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.perks-title {
+  margin-top: 28px;
+  margin-bottom: 0;
+}
+
+.perks-item-title {
+  font-family: "Source Sans Pro";
+  font-weight: 900;
+  font-size: 24px;
+  color: #4d4d4d;
+  letter-spacing: 0.85px;
+  line-height: 31px;
+  margin-top: 44px;
+}
+
+.perks-item-text {
+  font-family: Georgia;
+  font-size: 22px;
+  color: #808080;
+  letter-spacing: 0.78px;
+  line-height: 25px;
+  margin-top: 20px;
+}
