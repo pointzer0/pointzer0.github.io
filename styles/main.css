@@ -568,3 +568,40 @@ h4 {
   line-height: 25px;
   margin-top: 20px;
 }
+
+/* FAQ */
+#faq {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.faq-item {
+  padding-right: 43px;
+  padding-left: 43px;
+}
+
+.faq-item-title {
+  font-family: "Source Sans Pro";
+  font-weight: 900;
+  font-size: 20px;
+  color: #6BB27F;
+  letter-spacing: 0.71px;
+  line-height: 25px;
+  margin-top: 48px;
+}
+
+.faq-item-text {
+  font-family: Georgia;
+  font-size: 18px;
+  color: #808080;
+  letter-spacing: 0.64px;
+  line-height: 29px;
+  margin-top: 28px;
+}
+
+#faq a {
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  color: #6BB27F;
+}
