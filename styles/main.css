@@ -224,7 +224,9 @@ ul.nav li a {
 .btn-primary:focus,
 .btn-primary:active {
   background: #403341;
-  transition: .2s;
+  -webkit-transition: .2s;
+       -o-transition: .2s;
+          transition: .2s;
 }
 
 @media (max-width: 767px) {
@@ -467,7 +469,9 @@ a:hover,
 a:focus,
 a:active {
   color: #403341;
-  transition: .2s;
+  -webkit-transition: .2s;
+       -o-transition: .2s;
+          transition: .2s;
 }
 
 
