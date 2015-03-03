@@ -615,7 +615,7 @@ h4 {
   background: #6bb27f;
   text-align: center;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
 }
 
 .contact-wrapper {
@@ -688,4 +688,43 @@ h4 {
   -webkit-transition: .2s;
        -o-transition: .2s;
           transition: .2s;
+}
+
+/* Footer */
+footer {
+  background: #6bb27f;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+footer .footer-list {
+  font-family: Georgia;
+  font-weight: 700;
+  font-size: 16px;
+  color: #e0f2e9;
+  line-height: 19px;
+}
+
+footer .footer-list li {
+  border-left: solid 1px;
+  display: inline-block;
+  margin-left: 1em;
+  padding-left: 1em;
+}
+
+footer .footer-list li:first-child {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+footer .footer-list li a,
+footer .footer-list li span {
+  color: inherit;
+}
+
+footer .footer-list li a:hover,
+footer .footer-list li span:hover {
+  color: #fff;
 }
