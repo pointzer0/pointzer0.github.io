@@ -512,6 +512,10 @@ a:active {
 
 
 /* Help */
+.help-wrapper {
+  padding-top: 80px;
+}
+
 h2 small {
   text-transform: none;
   opacity: 0.6;
