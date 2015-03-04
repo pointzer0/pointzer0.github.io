@@ -451,10 +451,36 @@ h2 {
   clear: both;
 }
 
+
+.budgetandhelp-container-fluid {
+  width: 100%;
+  display: table;
+  padding: 0;
+}
+
 /* Budget */
 .budget-wrapper {
   background: #6bb27f;
+  display: table-row;
 }
+
+.budget-wrapper:after {
+  clear: both;
+}
+
+.budget-wrapper-inner {
+  /*background: cadetblue;*/
+  margin: 100px auto;
+  float: right;
+}
+
+@media (max-width: 767px) {
+  .budget-wrapper-inner {
+    width: 80%;
+    float: none;
+  }
+}
+
 
 .budget-title {
   font-family: "Source Sans Pro";
@@ -540,7 +566,21 @@ a:active {
 
 /* Help */
 .help-wrapper {
+  display: table-row;
+}
 
+.help-wrapper-inner {
+  /*background: wheat;*/
+  margin-top: 100px;
+  float: left;
+}
+
+@media (max-width: 767px) {
+  .help-wrapper-inner {
+    width: 80%;
+    margin-bottom: 100px;
+    float: none;
+  }
 }
 
 h2 small {
