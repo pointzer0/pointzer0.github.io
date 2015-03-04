@@ -70,7 +70,7 @@ nav {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #6bb27f;
+  color: #fff;
 }
 .navbar-default .navbar-text {
   color: #fff;
@@ -80,18 +80,18 @@ nav {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #6bb27f;
+  color: #fff;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #6bb27f;
+  color: #fff;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #6bb27f;
+  color: #fff;
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
@@ -112,7 +112,7 @@ nav {
   color: #fff;
 }
 .navbar-default .navbar-link:hover {
-  color: #6bb27f;
+  color: #fff;
 }
 
 @media (max-width: 767px) {
