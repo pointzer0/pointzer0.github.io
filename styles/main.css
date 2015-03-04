@@ -468,7 +468,9 @@ h2 {
 
 .budget-wrapper-inner {
   /*background: cadetblue;*/
-  margin: 100px auto;
+  /*margin: 100px auto;*/
+  padding-top: 100px;
+  padding-bottom: 200px;
   float: right;
 }
 
@@ -571,6 +573,7 @@ a:active {
   /*background: wheat;*/
   margin-top: 100px;
   float: left;
+  /*padding-bottom: 100px;*/
 }
 
 @media (max-width: 767px) {
@@ -579,6 +582,10 @@ a:active {
     margin-bottom: 100px;
     float: none;
   }
+}
+
+.paypal-form {
+  margin-bottom: 60px;
 }
 
 h2 small {
