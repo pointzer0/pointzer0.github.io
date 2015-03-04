@@ -763,11 +763,12 @@ h4 {
   padding-left: 98px;
 }
 
-/*@media (max-width: 767px) {
-.contact-wrapper {
-  padding-right: 40px;
-  padding-left: 40px;
-}*/
+@media (max-width: 767px) {
+  .contact-wrapper {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
 
 .contact-title {
   color: #fff;
