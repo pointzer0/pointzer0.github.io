@@ -257,7 +257,7 @@ ul.nav li a {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background: #403341;
+  background: #e0f2e9;
   -webkit-transition: .2s;
        -o-transition: .2s;
           transition: .2s;
@@ -557,7 +557,7 @@ h2 {
 a:hover,
 a:focus,
 a:active {
-  color: #403341;
+  color: #e0f2e9;
   -webkit-transition: .2s;
        -o-transition: .2s;
           transition: .2s;
@@ -801,7 +801,7 @@ h4 {
 #contact .btn-primary:hover,
 #contact .btn-primary:focus,
 #contact .btn-primary:active {
-  background: #403341;
+  background: #e0f2e9;
   -webkit-transition: .2s;
        -o-transition: .2s;
           transition: .2s;
