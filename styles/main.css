@@ -49,10 +49,6 @@ nav {
 }
 
 @media (max-width: 767px) {
-  .jumbotron {
-    height: 500px;
-  }
-
   .jumbotron .hero-pitch {
     font-size: 22px;
     margin-top: 15px;
