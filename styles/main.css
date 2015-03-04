@@ -606,11 +606,16 @@ h3 {
   line-height: 31px;
 }
 
+.help-wrapper h2 {
+  margin-bottom: 50px;
+}
+
 .help-list p {
   font-family: Georgia;
   font-size: 18px;
   color: #858585;
   line-height: 24px;
+  margin-bottom: 10px;
 }
 
 small {
