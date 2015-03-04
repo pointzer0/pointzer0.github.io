@@ -569,9 +569,6 @@ a:hover,
 a:focus,
 a:active {
   color: #e0f2e9;
-  -webkit-transition: .2s;
-       -o-transition: .2s;
-          transition: .2s;
 }
 
 a:visited {
