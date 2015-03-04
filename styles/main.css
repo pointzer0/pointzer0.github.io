@@ -185,7 +185,6 @@ ul.nav li a {
 .cta-container {
   background: rgba(0, 0, 0, 0.5);
   display: inline-block;
-  /*height: 200px;*/
   width: 100%;
   margin-top: 100px;
   margin-right: 50px;
@@ -216,7 +215,6 @@ ul.nav li a {
 }
 
 .progress {
-  /*width: 550px;*/
   height: 10px;
   border: 1px solid #fff;
   border-radius: 10px;
@@ -225,7 +223,6 @@ ul.nav li a {
 }
 
 .progress-bar {
-  /*height: 5px;*/
   background: #6bb27f;
 }
 
