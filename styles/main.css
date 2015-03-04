@@ -540,6 +540,16 @@ h2 {
   margin-right: 25px;
 }
 
+@media (max-width: 767px) {
+  .budget-links-item {
+    text-align: center;
+  }
+  .budget-links-img {
+    float: none;
+    margin-bottom: 25px;
+  }
+}
+
 .budget-links-text {
   display: inline-block;
 }
