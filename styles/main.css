@@ -50,7 +50,7 @@ nav {
 
 @media (max-width: 767px) {
   .jumbotron {
-    height: 500px;
+    height: 560px;
   }
 
   .jumbotron .hero-pitch {
