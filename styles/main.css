@@ -418,11 +418,42 @@ h2 {
   margin-left: 40px;
 }
 
+/* Half-container helper class */
+.half-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .half-container {
+    width: 375px;
+  }
+}
+@media (min-width: 992px) {
+  .half-container {
+    width: 485px;
+  }
+}
+@media (min-width: 1200px) {
+  .half-container {
+    width: 585px;
+  }
+}
+
+.half-container:before,
+.half-container:after {
+  display: table;
+  content: " ";
+}
+
+.half-container:after {
+  clear: both;
+}
+
 /* Budget */
 .budget-wrapper {
   background: #6bb27f;
-  padding-top: 80px;
-  padding-bottom: 100px;
 }
 
 .budget-title {
@@ -509,7 +540,7 @@ a:active {
 
 /* Help */
 .help-wrapper {
-  padding-top: 80px;
+
 }
 
 h2 small {
