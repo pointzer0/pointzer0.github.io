@@ -380,6 +380,12 @@ hr {
   background: #f2f2f2;
 }
 
+@media (max-width: 992px) {
+  .specifications-image-wrapper {
+    text-align: center;
+  }
+}
+
 h2 {
   margin-bottom: 70px;
   font-family: "Source Sans Pro";
