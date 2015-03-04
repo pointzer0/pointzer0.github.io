@@ -460,17 +460,16 @@ h2 {
 .budget-links {
   list-style: none;
   padding-left: 0px;
+  margin-top: 70px;
 }
 
 .budget-links-item {
-  display: inline-block;
-  margin-top: 50px;
+  padding: 15px;
 }
 
 .budget-links-img {
-  display: inline-block;
-  height: 80px;
-  text-align: left;
+  float: left;
+  margin-right: 25px;
 }
 
 .budget-links-text {
@@ -478,23 +477,20 @@ h2 {
 }
 
 .budget-links-title {
-  display: inline-block;
+  display: block;
   font-family: "Source Sans Pro";
   font-weight: 900;
   font-size: 18px;
   color: #FFFFFF;
-  line-height: 23px;
+  line-height: 18px;
 }
 
 .budget-links-desc {
-  display: inline-block;
+  /*display: inline-block;*/
   font-family: Georgia;
   font-size: 16px;
   color: #FFFFFF;
-  line-height: 19px;
-  /*float: left;*/
-  /*margin-left: 60px;*/
-  /*margin-top: 60px;*/
+  /*line-height: 19px;*/
 }
 
 .budget-links-desc a {
