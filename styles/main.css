@@ -258,6 +258,7 @@ ul.nav li a {
 .btn-primary:focus,
 .btn-primary:active {
   background: #e0f2e9;
+  color: #403341;
   -webkit-transition: .2s;
        -o-transition: .2s;
           transition: .2s;
@@ -659,6 +660,7 @@ h4 {
   padding-bottom: 100px;
   text-align: center;
   background: #e0f2e9;
+  color: #403341;
 }
 
 .perks-wrapper {
@@ -802,6 +804,7 @@ h4 {
 #contact .btn-primary:focus,
 #contact .btn-primary:active {
   background: #e0f2e9;
+  color: #403341;
   -webkit-transition: .2s;
        -o-transition: .2s;
           transition: .2s;
