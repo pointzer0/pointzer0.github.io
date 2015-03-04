@@ -574,6 +574,10 @@ a:active {
           transition: .2s;
 }
 
+a:visited {
+  color: #437350;
+}
+
 
 /* Help */
 .help-wrapper {
