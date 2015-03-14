@@ -43,6 +43,23 @@ var SpreadSheet = (function(url, pledgedCell, depositedCell, min, max) {
     };
 }());
 
+SpreadSheet.fetchData().then(function(data) {
+    'use strict';
+    var totals = SpreadSheet.getTotals(data);
+    $({totalPledged: 0, totalPledgedNormalized: 0})
+        .animate({totalPledged: totals.totalPledged,totalPledgedNormalized: totals.totalPledgedNormalized}, {
+            duration: 3000,
+            easing: 'swing',
+            step: function() {
+                $('.totalPledged').text(Math.round(this.totalPledged).toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.'));
+                $('.totalProgress .sr-only').text(Math.round(this.totalPledgedNormalized) + '% Complete');
+                $('.totalProgress')
+                    .attr('aria-valuenow', Math.round(this.totalPledgedNormalized))
+                    .width(Math.round(this.totalPledgedNormalized) + '%');
+            }
+        });
+      });
+
 /** @see https://css-tricks.com/snippets/jquery/smooth-scrolling/ */
 $(function () {
 
@@ -63,22 +80,6 @@ $(function () {
         }, 1000);
 
         return false;
-
-SpreadSheet.fetchData().then(function(data) {
-    'use strict';
-    var totals = SpreadSheet.getTotals(data);
-    $({totalPledged: 0, totalPledgedNormalized: 0})
-        .animate({totalPledged: totals.totalPledged,totalPledgedNormalized: totals.totalPledgedNormalized}, {
-            duration: 3000,
-            easing: 'swing',
-            step: function() {
-                $('.totalPledged').text(Math.round(this.totalPledged).toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.'));
-                $('.totalProgress .sr-only').text(Math.round(this.totalPledgedNormalized) + '% Complete');
-                $('.totalProgress')
-                    .attr('aria-valuenow', Math.round(this.totalPledgedNormalized))
-                    .width(Math.round(this.totalPledgedNormalized) + '%');
-            }
-        });
       }
     }
   });
