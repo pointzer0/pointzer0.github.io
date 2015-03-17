@@ -125,12 +125,12 @@ nav {
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #6bb27f;
+    color: #31B7C9;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #6bb27f;
+    color: #31B7C9;
     background-color: transparent;
   }
 }
@@ -205,7 +205,7 @@ ul.nav li a {
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #6bb27f;
+  color: #31B7C9;
   line-height: 32px;
 }
 
@@ -227,7 +227,7 @@ ul.nav li a {
 }
 
 .progress-bar {
-  background: #6bb27f;
+  background: #31B7C9;
 }
 
 .cta-donate {
@@ -245,8 +245,8 @@ ul.nav li a {
 }
 
 .btn-primary {
-  background: #6bb27f;
-  border: #6bb27f;
+  background: #31B7C9;
+  border: #31B7C9;
   border-radius: 0;
   font-family: "Source Sans Pro";
   font-size: 18px;
@@ -261,8 +261,8 @@ ul.nav li a {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background: #e0f2e9;
-  color: #6bb27f;
+  background: #dbf3f6;
+  color: #31B7C9;
   -webkit-transition: .2s;
        -o-transition: .2s;
           transition: .2s;
@@ -396,7 +396,7 @@ h2 {
   font-size: 30px;
   font-weight: 900;
   text-transform: uppercase;
-  color: #6bb27f;
+  color: #31B7C9;
   letter-spacing: 1.07px;
   line-height: 38px;
 }
@@ -411,7 +411,7 @@ h2 {
   font-family: "Source Sans Pro";
   font-size: 20px;
   font-weight: 900;
-  color: #6bb27f;
+  color: #31B7C9;
   line-height: 25px;
   margin-left: 15px;
   margin-right: 15px;
@@ -469,7 +469,7 @@ h2 {
 
 /* Budget */
 .budget-wrapper {
-  background: #6bb27f;
+  background: #31B7C9;
   display: table-row;
 }
 
@@ -578,7 +578,7 @@ h2 {
 a:hover,
 a:focus,
 a:active {
-  color: #e0f2e9;
+  color: #dbf3f6;
 }
 
 #budget a:visited {
@@ -680,7 +680,7 @@ h4 {
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
-  background: #e0f2e9;
+  background: #dbf3f6;
   color: #403341;
 }
 
@@ -729,7 +729,7 @@ h4 {
   font-family: "Source Sans Pro";
   font-weight: 900;
   font-size: 20px;
-  color: #6BB27F;
+  color: #31B7C9;
   letter-spacing: 0.71px;
   line-height: 25px;
   margin-top: 48px;
@@ -747,12 +747,12 @@ h4 {
 #faq a {
   font-family: Georgia;
   font-weight: 700;
-  color: #6BB27F;
+  color: #31B7C9;
 }
 
 /* Contact */
 #contact {
-  background: #6bb27f;
+  background: #31B7C9;
   text-align: center;
   padding-top: 100px;
   padding-bottom: 40px;
@@ -779,7 +779,7 @@ h4 {
   font-family: Georgia;
   font-weight: 700;
   font-size: 22px;
-  color: #e0f2e9;
+  color: #dbf3f6;
   line-height: 25px;
   margin-bottom: 100px;
 }
@@ -831,14 +831,14 @@ h4 {
 #contact .btn-primary {
   margin-top: 14px;
   background: #fff;
-  color: #6bb27f;
+  color: #31B7C9;
 }
 
 #contact .btn-primary:hover,
 #contact .btn-primary:focus,
 #contact .btn-primary:active {
-  background: #e0f2e9;
-  color: #6bb27f;
+  background: #dbf3f6;
+  color: #31B7C9;
   -webkit-transition: .2s;
        -o-transition: .2s;
           transition: .2s;
@@ -846,7 +846,7 @@ h4 {
 
 /* Footer */
 footer {
-  background: #6bb27f;
+  background: #31B7C9;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 100px;
@@ -856,7 +856,7 @@ footer .footer-list {
   font-family: Georgia;
   font-weight: 700;
   font-size: 16px;
-  color: #e0f2e9;
+  color: #dbf3f6;
   line-height: 19px;
 }
 
