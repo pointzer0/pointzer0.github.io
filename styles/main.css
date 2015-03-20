@@ -31,6 +31,7 @@
 /* Hero section */
 .jumbotron {
   height: 740px;
+  margin-bottom: 0;
   background: url(../images/heroBackground.jpg);
   background-position: center -80px;
 }
@@ -286,8 +287,9 @@ ul.nav li a {
 
 
 /* Spaces */
-.spaces-item-wrapper {
-  margin: 100px auto;
+#spaces {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .space-item-img-co {
@@ -615,7 +617,7 @@ h2 small {
   opacity: 0.6;
   font-family: Georgia;
   font-size: 22px;
-  color: #7cbd91;
+  color: #6dcedb;
   line-height: 25px;
 }
 
